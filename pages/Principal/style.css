@@ -1,28 +1,4 @@
 
-a{text-decoration: none;}
-
-
-
-.nav_top{
-	margin: 0;
-	padding: 10px;
-	text-align: right;
-	background-color: #0096C7;
-	
-}
-.nav_top li{
-	list-style: none;
-	display: inline-block;
-	padding: 0 12px;
-}
-.nav_top  li a{
-	font-size: 18px;
-	color: #dcdcdc;
-}
-/*.nav .sem-borda{border: none;}*/
-.nav_top  li:last-child {
-	border: none;
-}
 
 .container{	
 	margin: 20px auto 0 auto;
