@@ -1,11 +1,5 @@
-
-
-
 .adocao {
-	margin: 20px auto 0 auto;
-   
-    
-   
+	margin: 20px auto 0 auto; 
 }
 
 .adote_container {
@@ -14,19 +8,12 @@
 	max-width: 1180px;
 	width: 100%;
     text-align: center;
-   
-   
-
-
 }
-
 
 .adote_container h2 {
 	color:#8c8c8c;
 	display: flex;
-	
 }
-
 
 .adote{
 	margin: 2px auto 2px auto;
@@ -39,35 +26,23 @@
     border-radius: 8px;
     box-shadow: 1px 1px 1px #d9d9d9;
     text-align: center;
-	
-   
-
 }
+
 .adote .imagem{
 	width: 100%;
 	max-height: 190px;
 	overflow: hidden;
 	text-align: center;
-	margin-top: 1px
-   
-
-	
-    
+	margin-top: 1px  
 }
+
 .adote .imagem img{
 	border-radius: 8px;
 	width: 95%;
 }
 
 .adote h3 {
-	color:#fff;
+	color:rgb(0, 0, 0);
 	font-weight: bold;
 	font-size: 20px;
 }
-
-.adote h4 {
-	color:#fff;
-	font-weight: bold;
-	font-size: 20px;
-}
-
