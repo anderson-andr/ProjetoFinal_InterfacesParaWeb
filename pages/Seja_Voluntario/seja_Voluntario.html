@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@200;300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Seja Voluntário</title>
+    <link rel="icon" href="../../resource/favicon.png">
 </head>
 <body>
     <header>
@@ -26,6 +27,171 @@
         </nav>
     </header>
     <main>
+        <div class="container">
+            <div class="conteudo_central">
+                <h1>Seja um Voluntário
+                </h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Quantas vezes ao caminhar pelas ruas do seu bairro ou mesmo no trajeto entre sua casa e o trabalho ou a escola/faculdade você se deparou com animais abandonados?<br></p>
+                <div>
+                    <img class="img_central" src="../../resource/seja_voluntario_1.jpg" alt="">
+                </div>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;A "Adote, Não Compre!" é uma associação sem fins lucrativos que caminha através de doações e do amor dos amigos e voluntários. Como toda associação, temos muitos serviços e, por não termos verba suficiente, não podemos pagar por eles. Eles podem ser feitos de segunda a sábado, pela parte da manhã e/ou a tarde.<br>
+                &nbsp;&nbsp;&nbsp;Entre os inúmeros serviços temos: auxílio administrativo (etiquetas, digitação e outros); coleta de doações; ajuda em redes sociais e web design; auxílio com limpeza e manutenção da associação; banho e tosa nos animais; orientação legal e jurídica; vídeos, filmagens e fotos; elaboração de projetos e captação de recursos; pedreiro; pintor; eletricista; serralheiro; marceneiro; carpinteiro; jardineiro; paisagismo; pós adoção; apadrinhamento; doação de materiais ou produtos; doação financeira; realização de feiras externas; e muitos outros.<br>
+                </p>  
+                <div>
+                    <img class="img_central" src="../../resource/seja_voluntario_2.jpg" alt="">
+                </div>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Se tiver interesse em alguma das atividades acima elencadas, preencha o formulário abaixo que entraremos em contato. Venha colocar em prática suas habilidades e descubra o quanto é prazeroso ajudar!
+                </p>
+        </div>
+        <form class="form" action="" method="post" enctype="multipart/form-data" >
+            <fieldset>
+                <legend><b>Dados Pessoais</b></legend>
+                <div>
+                    <label for="name"><b>Nome completo:</b></label>
+                    <input required type="text" name="name" placeholder="Digite aqui seu nome">
+                </div><br>
+                <div>
+                    <legend><b>Selecione seu gênero</b>:</legend>
+                    <label>
+                        <input required class="rad" type="radio" value="Feminino" name="sex">Feminino
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="Masculino" name="sex">Masculino
+                    </label>
+                    <label>
+                        <input required lass="rad" type="radio" value="Outro" name="sex">Outro
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="Prefiro não responder" name="sex">Prefiro não responder
+                    </label>
+                </div><br>
+                <div>
+                    <label for="date"><b>Data de Nascimento</b>:</label>	
+                    <input required type="date" name="data">
+                </div><br>
+                <div>
+                    <label for="email"><b>Seu E-mail</b>:</label>
+                    <input required id="email" type="email" name="email" placeholder="Digite aqui seu e-mail">
+                </div><br>
+                <div>
+                    <legend><b>Informe seu endereço</b>:</legend>
+                    <label for="name">Rua</label>
+                    <input required type="text" name="name" placeholder="Digite aqui sua rua">
+                    <label for="name">Nº</label>
+                    <input required type="text" name="name" placeholder="Digite aqui seu número"><br>
+                    <label for="name">Complemento:</label>
+                    <input required type="text" name="name" placeholder="Digite aqui um complemento">
+                </div>
+                <div><br>
+                    <legend><b>Selecione sua Cidade</b>:</legend>
+                    <select required name="cities">
+                    <option value="">--------------</option>
+                        <option>Alvorada</option>
+                        <option>Cachoeirinha</option>
+                        <option>Campo Bom</option>
+                        <option>Canoas</option>
+                        <option>Estância Velha</option>
+                        <option>Esteio</option>
+                        <option>Gravataí</option>
+                        <option>Novo Hamburgo</option>
+                        <option>Porto Alegre</option>
+                        <option>São Leopoldo</option>
+                        <option>Sapucaia do Sul</option>
+                        <option>Viamão</option>				            
+                </select>
+            </div><br>
+                <div>
+                    <legend><b>Telefone</b>:</legend>
+                    <input required type="tel" name="telefone" placeholder="Digite aqui seu telefone">
+                </div>
+                <div><br>
+                    <legend><b>Área(s) de voluntariado</b></legend>
+                    <div class="column_left">
+                    <label>
+                        <input required class="check" type="checkbox" value="Design" name="area">Administrativo
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Front" name="area">Coleta de Doações
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Back" name="area">Redes Sociais e Web Design
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="EngSof" name="area">Limpeza e Manutenção
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Banco" name="area">Banho e Tosa
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="AnTest" name="area">Jurídico
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="AnTest" name="area">Filmagens e Fotos
+                    </label>
+                    </div>
+                    <div class="colunn_right">
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Projetos e Captação de Recursos
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Pedreiro
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Pintor
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Eletricista
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Serralheiro
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Jardineiro
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Paisagismo
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Pós adoção
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Realização de Feiras Externas
+                    </label><br>
+                    <label>
+                        <input required class="check" type="checkbox" value="Man" name="area">Outro (especifique abaixo)
+                    </label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <legend><b>Selecione sua disponibilidade de horas semanais</b></legend>
+                    <label>
+                        <input required class="rad" type="radio" value="10" name="hrs">10h semanais
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="20" name="hrs">20h semanais
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="30" name="hrs">30h semanais
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="40" name="hrs">40h semanais
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="Outra" name="hrs">Outra (especifique abaixo)
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <legend><b>Sua mensagem</b>:</legend>
+                    <textarea id="text" name="text" rows="4" cols="50">Digite aqui o que você gostaria de complementar a respeito de seu interesse no voluntariado.</textarea>
+                <div>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+            <br>
+            <br>
     </main>
     <footer>
         <a href="https://www.instagram.com/accounts/login/?source=deactivate"target="_blank" >  <img src="/resource/iconmonstr-instagram-8.svg"   id="icon"alt=""> </a>

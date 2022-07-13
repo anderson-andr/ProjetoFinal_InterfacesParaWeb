@@ -1,0 +1,51 @@
+.conteudo_central  {
+	max-width: max-content;
+	margin: auto;
+	width: 50%;	
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+  }
+
+.conteudo_central h1{
+	text-align: center;
+	line-height: 1;
+	
+}
+
+.conteudo_central p {
+    justify-items: center;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.form {
+	margin: auto;
+	width: 800px;
+    text-align: justify;
+	line-height: 2;
+    justify-items: center;
+    font-size: 15px;}
+
+.img_central {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border-radius: 8px;
+
+}
+
+.column_left {
+    float: left;
+    width: 60%;
+}
+
+.column_right {
+    width: 40%;
+}
