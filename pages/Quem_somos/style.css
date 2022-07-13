@@ -1,11 +1,7 @@
 .container {
 	margin: 10px 5%;
 	overflow: hidden;
-
-
 }
-
-
 
 .container img {
 	width: 100%;
@@ -13,8 +9,6 @@
 	margin: 2px;
 
 }
-
-
 
 .conteudo_left_top {
 	float: left;
@@ -27,17 +21,10 @@
 .conteudo_rigth_top {
 	float: right;
 	width: 40%;
-
-
 }
 
 .conteudo_rigth_top .imagem img {
 	width: 100%;
-
-
-
-
-
 }
 
 .conteudo_rigth_bottom {
@@ -46,27 +33,17 @@
 	border: rgb(143, 143, 143) solid 1px;
 	border-radius: 8px;
 	min-height: 303px;
-
-
 }
 
 .conteudo_left_bottom {
 	float: left;
 	width: 40%;
-
-
 }
-
-
-
-
 
 .conteudo_left_bottom .imagem img {
 	width: 100%;
 
 }
-
-
 
 p {
 	justify-items: left;
@@ -75,9 +52,7 @@ p {
 	margin: 10px;
 }
 
-
 h2,
 h1 {
 	margin: 10px;
-
 }
