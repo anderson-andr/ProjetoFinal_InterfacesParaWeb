@@ -1,0 +1,56 @@
+.conteudo_central_main  {
+	max-width: max-content;
+	margin: auto;
+	width: 50%;	
+
+	
+}
+
+.conteudo_central_main  h1{
+	text-align: center;
+	line-height: 1;
+	
+}
+
+.conteudo_central_main  h2{
+    text-align: center;
+	line-height: 1;
+
+}
+
+.conteudo_central_main p {
+    justify-items: center;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.form {
+	max-width: max-content;
+	margin: auto;
+	width: 50%;
+    text-align: justify;
+	line-height: 2;
+    justify-items: center;
+    font-size: 15px;}
+
+.urgente {
+	width: 100px;
+    height: 100px;	
+    margin-left: 425px;
+}
+
+.conteudo_central {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border-radius: 8px;
+
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+  }

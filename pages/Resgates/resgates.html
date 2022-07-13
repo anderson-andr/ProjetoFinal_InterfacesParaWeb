@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@200;300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Resgates</title>
+    <link rel="icon" href="../../resource/favicon.png">
 </head>
 <body>
     <header>
@@ -26,6 +27,95 @@
         </nav>
     </header>
     <main>
+        <div class="container">
+            <div class="conteudo_central_main">
+                <h1>Resgates
+                </h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;O resgate de cachorro é um ato de amor e cuidado com os animais. Mesmo que nem sempre seja possível abrigar o doguinho em casa, tirá-lo das ruas já é algo que ajuda - e muito - a manter o pet em segurança. Quando os cães são abandonados e não têm um lar, ficam expostos a várias situações perigosas, como doenças, maus tratos e acidentes. Por isso, o resgate de animais é uma forma de tentar evitar que aquele cão fique à mercê de tantos riscos e permite que ele encontre uma família para chamar de sua.
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;A "Adote, Não Compre!" auxilia àqueles que oferecem lar transitório a estes cães e não dispõe de recursos/espaço para abrigá-los por um longo período de tempo e residam na região metropolitana de Porto Alegre. Para tanto, solcitamos o preenchimento dos dados abaixo:
+                </p>
+        </div>
+        <div>
+            <img class="conteudo_central" src="../../resource/rescue.jpg" alt="">
+        </div>
+        <form class="form" action="" method="post" enctype="multipart/form-data" >
+            <fieldset>
+                <legend><b>Dados Pessoais</b></legend>
+                <div>
+                    <label for="name"><b>Nome completo:</b></label>
+                    <input required type="text" name="name" placeholder="Digite aqui seu nome">
+                </div><br>
+                <div>
+                    <legend><b>Selecione seu gênero</b>:</legend>
+                    <label>
+                        <input required class="rad" type="radio" value="Feminino" name="sex">Feminino
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="Masculino" name="sex">Masculino
+                    </label>
+                    <label>
+                        <input required lass="rad" type="radio" value="Outro" name="sex">Outro
+                    </label>
+                    <label>
+                        <input required class="rad" type="radio" value="Prefiro não responder" name="sex">Prefiro não responder
+                    </label>
+                </div><br>
+                <div>
+                    <label for="date"><b>Data de Nascimento</b>:</label>	
+                    <input required type="date" name="data">
+                </div><br>
+                <div>
+                    <label for="email"><b>Seu E-mail</b>:</label>
+                    <input required id="email" type="email" name="email" placeholder="Digite aqui seu e-mail">
+                </div><br>
+                <div>
+                    <legend><b>Informe seu endereço</b>:</legend>
+                    <label for="name">Rua</label>
+                    <input required type="text" name="name" placeholder="Digite aqui sua rua">
+                    <label for="name">Nº</label>
+                    <input required type="text" name="name" placeholder="Digite aqui seu número"><br>
+                    <label for="name">Complemento:</label>
+                    <input required type="text" name="name" placeholder="Digite aqui um complemento">
+                </div>
+                <div><br>
+                    <legend><b>Selecione sua Cidade</b>:</legend>
+                    <select required name="cities">
+                    <option value="">--------------</option>
+                        <option>Alvorada</option>
+                        <option>Cachoeirinha</option>
+                        <option>Campo Bom</option>
+                        <option>Canoas</option>
+                        <option>Estância Velha</option>
+                        <option>Esteio</option>
+                        <option>Gravataí</option>
+                        <option>Novo Hamburgo</option>
+                        <option>Porto Alegre</option>
+                        <option>São Leopoldo</option>
+                        <option>Sapucaia do Sul</option>
+                        <option>Viamão</option>				            
+                </select>
+            </div><br>
+                <div>
+                    <legend><b>Telefone</b>:</legend>
+                    <input required type="tel" name="telefone" placeholder="Digite aqui seu telefone">
+                </div>
+                <div><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+            <br>
+            <br>
+            <img class="urgente" src="../../resource/exclamation.jpg" alt="">
+            <div class="conteudo_central_main">
+                <h2>Em casos de urgência!
+                </h2>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Em casos de situações urgentes, solicitamos que sejam acionados os seguintes órgãos e respectivos números de telefone:<br>                    
+                </p>
+                <ul class="list">
+                    <li><b>Polícia Militar</b>: 190</li>
+                    <li><b>Disque Denúncia</b>:181</li>	
+                </ul>
+            </div>
     </main>
     <footer>
         <a href="https://www.instagram.com/accounts/login/?source=deactivate"target="_blank" >  <img src="/resource/iconmonstr-instagram-8.svg"   id="icon"alt=""> </a>
